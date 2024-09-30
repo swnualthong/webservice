@@ -1,0 +1,89 @@
+.article {
+    background-image: url(media/Home/doodle_pattern.webp);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 310px;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    block-size: 100%;
+    backdrop-filter: blur(4px);
+}
+
+.home-heading {
+    font-weight: bolder;
+    font-size: 72px;
+    color: #19355b;
+    text-align-last: center;
+    text-shadow: 3px 3px 10px black;
+}
+
+.home-heading-span {
+    font-weight: 300;
+    font-size: 60px;
+    color: #ecb309;
+    text-transform: capitalize;
+}
+
+.head-paragraph {
+    font-weight: 200;
+    font-size: 45px;
+    text-align-last: center;
+    color: #ecb309;
+    text-shadow: 1px 1px 10px black;
+}
+
+.paragraph {
+    font-weight: 100;
+    font-size: 36px;
+    margin: 0;
+    color: #ecb309;
+    text-indent: 5%;
+}
+
+.paragraph span {
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 0 0 0 10px;
+    color: #19355b;
+    text-indent: 5%;
+}
+
+.start {
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;  
+    margin: 50px 0;
+}
+
+.start a {
+    text-decoration: none;
+    color: #ecb309;
+    background-color: #19355b;
+    padding: 10px 20px;
+    border-radius: 22px;
+    border: #ecb309 solid 1px;
+}
+
+.start i {
+    padding-left: 1%;
+}
+
+.start a:hover {
+    color: #19355b;
+    background-color: #ecb309;
+    border: #19355b solid 1px;
+    transition: 1.5s;
+}
+
+.start a:active {
+    color: white;
+    background-color: #a07a08;
+    border: #19355b solid 1px;
+    transition: 1ms;
+}

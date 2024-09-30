@@ -1,0 +1,24 @@
+.article {
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 310px;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    text-align-last: center;
+}
+
+h1,h2,h4 {
+    color: white;
+}
+
+h4 a {
+    text-decoration: none;
+    color: #ecb309;
+}
